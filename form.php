@@ -5,7 +5,7 @@
   $email = $_POST['email'];
   $mensagem = $_POST['mensagem'];
 
-  if($_POST['enviar']) {
+  if($_POST['enviar']) (
     mail("$emailEnviar", "$mensagem", "
     
     Este é um contato enviado pelo site por $nome com as seguintes informações:
@@ -17,5 +17,5 @@
     Mensagem: "$mensagem"
 
     ";)
-  }
+  )
 ?>
