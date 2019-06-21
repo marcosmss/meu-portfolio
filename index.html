@@ -42,7 +42,6 @@
           <ul class="nav navbar-nav ml-auto">
             <li><a class="nav-link texto" href="#inicio">Início</a></li>
             <li><a class="nav-link texto" href="#conteudo">Sobre</a></li>
-            <li><a class="nav-link texto" href="#contato">Contato</a></li>
           </ul>
 
         </div>
@@ -76,7 +75,11 @@
               <p>Meu objetivo atualmente é um estágio na área de Desenvolvimento Web.</p>
               
               <h4>Conhecimento Intermediário em:</h4>
-              <p>HTML5, CSS3, JavaScript, Bootstrap, ReactJS, Redux, Firebase e Axios.</p>
+              <p><i class="fab fa-html5"></i> HTML5,
+                <i class="fab fa-css3-alt"></i> CSS3,
+                <i class="fab fa-js-square"></i> JavaScript,
+                <i class="fab fa-bootstrap"></i> Bootstrap,
+                <i class="fab fa-react"></i> ReactJS e eventuais plugins.</p>
                 <div>
                   <h4>Projetos já desenvolvidos:</h4>
                   <p><a href="https://github.com/mmss1304" target="_blank">GitHub</p></a>
@@ -84,26 +87,22 @@
             </div>
 
             <!-- foto -->
-            <div class="col-md-4">
-              <img src="img/minha.png" style="border-radius: 100%; width: 350px;">
+            <div class="col-md-4 img-myn">
+              <img src="img/minha1.png" class="rounded-circle img-my">
             </div>
 
-          </div>
-        </div>
-      </section>
 
-      <!-- Formulário -->
-      <section id="contato">
-        <div class="container teste-teste">
+            
+            <div class="col-md-12 teste">
+              <h4>Contatos:</h4>
 
-          <span class="heading heading-teste"><h2 style="padding-bottom: 40px;">Contato</h2></span>
-
-            <div class="col-md-5 teste">
               <p><i class="fa fa-map-marker-alt fa-lg"></i> Barueri - SP</p>
               <a href="https://api.whatsapp.com/send?phone=5511961358442&text=Olá%20Marcos%20Manoel!" target="_blank">
                 <p><i class="fa fa-mobile-alt fa-lg"></i> (11) 96135-8442</p>
               </a>
-              <p><i class="fa fa-envelope"></i>  marcosmss1304@gmail.com</p>
+              <a href="mailto:marcosmss1304@gmail.com?s">
+                <p><i class="fa fa-envelope"></i>  marcosmss1304@gmail.com</p>
+              </a>
               <a href="https://www.linkedin.com/in/marcos-manoel1304/" target="_blank">
                 <p><i class="fab fa-linkedin"></i>  Linkedin</p>
               </a>
@@ -112,32 +111,7 @@
               </a>
             </div>
 
-            <div class="col-md-7 ml-auto">
-                <form name="FrmContato" method="POST" action="./form.php">
-                  <div class="form-group">
-                    <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" class="form-control" id="telefone" placeholder="Seu número">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Seu email">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Deixe seu recado"></textarea>
-                  </div>
-
-                  <button type="submit" name="enviar" value="enviar" class="btn btn-primary">Enviar</button>
-                </form>
-            </div>
-
+          </div>
         </div>
       </section>
 

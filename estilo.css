@@ -92,8 +92,10 @@ body {
 }
 
 #conteudo h4 {
+    line-height: -10px;
     font-size: 21px;
     font-weight: 100px;
+    padding-bottom: 15px;
 }
 
 .heading {
@@ -102,6 +104,10 @@ body {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 40px;
+}
+
+.img-my {
+    width: 100%;
 }
 
 /* ======= Contato ======= */
@@ -140,4 +146,13 @@ h1 {
 
 .teste-teste {
     margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 55px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
 }
