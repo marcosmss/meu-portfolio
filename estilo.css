@@ -170,6 +170,15 @@ h1 {
     .img-myn {
         padding-bottom: 40px;
     }
+
+    .marcos {
+        margin: 0 0 0 15px;
+    }
+}
+
+
+.pad {
+    margin: 0 10px 0 15px;
 }
 
 .container-fluid {
