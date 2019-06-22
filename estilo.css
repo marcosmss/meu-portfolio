@@ -144,6 +144,10 @@ h1 {
     text-decoration: none; color: #212529 
 }
 
+.teste a:hover {
+    color: #E98042;
+}
+
 .teste-teste {
     margin-top: 80px;
 }
@@ -166,4 +170,28 @@ h1 {
     .img-myn {
         padding-bottom: 40px;
     }
+}
+
+.container-fluid {
+    max-width: 1920px;
+}
+
+.space {
+    margin: 0px;
+}
+
+.space a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.space a:hover {
+    color: #E98042;
+}
+
+.legenda {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
