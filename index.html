@@ -32,6 +32,14 @@
     />
 
     <script src="https://kit.fontawesome.com/d5af9f1f47.js"></script>
+
+    <script src="./assets/reactFbq/index.js"></script>
+
+    <script>
+      PixelCode.initialize({id: '3068803553369793'});
+      PixelCode.pageView();
+      PixelCode.track({title: 'Renderização', data: 'renderizou o site' });
+    </script>
   </head>
 
   <body>
@@ -67,7 +75,7 @@
     <div class="capa">
       <div class="texto-capa">
         <h1>Marcos Manoel</h1>
-        <a href="#conteudo" class="btn btn-lg btn-custom btn-branco">Começar</a>
+        <a href="#conteudo" class="btn btn-lg btn-custom btn-branco" onclick="PixelCode.track({title: 'começar title', data: 'click começar'});">Começar</a>
       </div>
     </div>
 
@@ -207,5 +215,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script type="text/javascript" src="./assets/reactFbq/index.js"></script>
   </body>
 </html>
